@@ -16,6 +16,7 @@ class Patient
     new_app = Appointment.new(self, date, doctor)
     Appointment.all << new_app 
     new_app
+    binding.pry
   end
   
   def appointments
